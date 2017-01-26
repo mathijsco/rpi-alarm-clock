@@ -11,7 +11,11 @@ module.exports = {
     },
 
     resolve: {
-        extensions: [".ts"]
+        root: [
+            path.resolve("."),
+            path.resolve("./src")
+        ],
+        extensions: ["", ".ts", ".js"]
     },
 
     module: {

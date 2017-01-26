@@ -1,10 +1,12 @@
 var path = require('path');
+var nodeExternals = require('webpack-node-externals');
 
 module.exports = {
     context: path.join(__dirname, "src"),
     entry: { main: "./main" },
 
     target: "node",
+    externals: [nodeExternals()],
     devtool: "source-map",
 
     output: {

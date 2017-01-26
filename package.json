@@ -1,0 +1,28 @@
+{
+  "name": "rpi-alarm-clock",
+  "version": "0.0.0",
+  "description": "RaspberryPi Alarm Clock",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathijsco/rpi-alarm-clock.git"
+  },
+  "author": "Mathijs, Tijs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mathijsco/rpi-alarm-clock/issues"
+  },
+  "homepage": "https://github.com/mathijsco/rpi-alarm-clock#readme",
+  "devDependencies": {
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.5",
+    "webpack": "^1.14.0"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.50",
+    "lodash": "^4.17.4"
+  }
+}

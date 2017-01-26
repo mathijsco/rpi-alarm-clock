@@ -1,0 +1,12 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "noImplicitAny": true,
+    "target": "es5",
+    "baseUrl": "src",
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
